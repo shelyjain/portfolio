@@ -3,25 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" a href="indexStyle.css"></link>
+    <link rel="stylesheet" href="indexStyle.css"> <!-- Corrected href attribute -->
+    <style>
+    </style>
     <title>Shely Jain | Portfolio</title>
 </head>
 <body>
-    <center><h1>Shely Jain</h1></center>
+    <header>
       <div class="collapse navbar-collapse navbar-main-collapse">
         <ul class="nav navbar-nav navbar-right">
             <li class="hidden">
                 <a class="page-scroll" href="#page-top"></a>
             </li>
             <li><a class="page-scroll" href="#about">About</a></li>
-            <li><a class="page-scroll" href="projects.html">Projects</a></li>
+            <li><a class="page-scroll" href="#projects">Projects</a></li>
             <li><a class="page-scroll" href="#experience">Experience</a></li>
             <li><a class="page-scroll" href="#portfolio">Work</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
+            <li style="float: right;"><button>Resume</button></li>
         </ul>
-    </div>
-    
+      </div>
+    </header>
+    <div class="container">
+        <div class="profile">
+            <div class="name">
+                <p>Hi, my name is</p>
+                <h1>S H E L Y &nbsp;&nbsp; J A I N</h1>
+                <h2>I'm a student at Emerald High School.</h2>
+            </div>
+        </div>
 
+        <div class="about">
+            <div class="#about">
+                <table>
+                    <tr>
+                        <td><p class="about-number">01.</p></td>
+                        <td><h1 style="font-size: 30px;">About Me</h1></td>
+                        <td><hr width="200px;" color="#64ffda" /></td>
+                    </tr>
+                </table>
+                <div class="about-content">
+                    <center><p style="color: #ccd6f6; font-size: 18px;">Every morning, I would wake up to the rhythmic monotonous clacking of a keyboard and its complimentary squeak of my father’s chair, signifying the start of the day for my family. I could always expect him to be awake before the rest of us and long hours after us. The appeal of this routine was a peculiar one for my 5 year old brain and always left me with a question unanswered: How could one spend hours each day staring at a screen, just typing? Flash forward to when I turned 10 and I decided to finally enroll in an online HTML course, and I never looked back. I too, was entranced by a world of algorithms and binaries, absorbed by the sublimity of rhythmic, monotonous clacking of a keyboard. Since that first tutorial, I knew the answer to the question that had always stumped me, and pursued that feeling through this moment.
+
+                        I am a hopeful individual who wants to pursue a Bachelor's degree in Computer Science to make a difference in the the ever moving, AI-reliant world.</p></center>
+                </div>
+            </div>
+        </div>
+
+        <div class="#projects">
+            <table>
+                <tr>
+                    <td><p class="about-number">02.</p></td>
+                    <td><h1 style="font-size: 30px;">Some things I made</h1></td>
+                    <td><hr width="200px;" color="#64ffda" /></td>
+                </tr>
+            </table>
+            <div class="project-image">
+                <img style="width: 580px; height: 300px; margin-left: 8%; display: block; position: relative; z-index: 1;" src="bellsched.png"></img>
+            </div>
+            <div style="margin-left: 60%; margin-right: 12%; margin-top: -300px; text-align: right;" class="project-titles">
+                <p style="font-size: 20px;">Featured Project</p>
+                <h3>Emerald High School Bell Schedule App</h3>
+            </div>
+            <div class="project-description">
+                <p style="background-color: #233554; margin-left: 50%; color:#ffff; font-size: 20px; margin-right: 10%;">This app is a website that shows a second by sencond updated timer to when the next period, starts, ends, and is made to decrease our Emerald High population's excess tardies.</p>
+            </div>
+        </div>
+    </div>
+        
 
 <script src="script.js"></script>
 </body>
