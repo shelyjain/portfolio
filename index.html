@@ -20,24 +20,38 @@
             <li><a class="page-scroll" href="#experience">Experience</a></li>
             <li><a class="page-scroll" href="#portfolio">Work</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
-            <li style="float: right;"><button>Resume</button></li>
+            <li style="float: right;" id="resume" onclick=
+            "window.open('https://drive.google.com/file/d/1jHp87ZGTuj34oxdliTsgXp35Q6t1Mt-d/view?usp=sharing');">
+            <button>Resume</button></li>
         </ul>
       </div>
     </header>
     <div class="container">
-        <div class="profile">
-            <div class="name">
-                <p>Hi, my name is</p>
-                <h1>S H E L Y &nbsp;&nbsp; J A I N</h1>
-                <h2>I'm a student at Emerald High School.</h2>
+    <table>
+        <tr>
+            <div class="profile">
+                <div class="name">
+                    <p>Hi, my name is</p>
+                    <h1>S H E L Y &nbsp;&nbsp; J A I N</h1>
+                    <h2>I'm a student at Emerald High School.</h2>
+                </div>
             </div>
-        </div>
+        </tr>
+        <tr>
+            <div class="me-pic">
+                <img style="margin-left: 55%; margin-top: -20%; height: 380px; width: 380px;" src="me.png"></img>
+            </div>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
 
         <div class="about">
             <div class="#about">
                 <table>
                     <tr>
-                        <td><p class="about-number">01.</p></td>
+                        <td><p>01.</p></td>
                         <td><h1 style="font-size: 30px;">About Me</h1></td>
                         <td><hr width="200px;" color="#64ffda" /></td>
                     </tr>
@@ -49,27 +63,84 @@
                 </div>
             </div>
         </div>
+        
+        <div class="#experience">
+            <table>
+                <tr>
+                    <td><p>02.</p></td>
+                    <td><h1 style="font-size: 30px;">Work Experience</h1></td>
+                    <td><hr width="200px;" color="#64ffda" /></td>
+                </tr>
+            </table>
+            <div class="experience-content">
+                <p style="font-size: 22px;">0.1 <u>Kumon Center Instructor</u></p>
+                <center><p style="color: #ccd6f6; font-size: 18px;">At Kumon Center, I honed my teaching skills and developed a deep understanding of adapting to individual learning styles. Working closely with students ranging from elementary to high school levels, I crafted personalized learning plans tailored to each student's unique strengths and areas for improvement.
+                </p></center>
+            </div>
+            <div class="experience-content">
+                <p style="font-size: 22px;">0.2 <u>Bell Hacks Hackathon</u></p>
+                <center><p style="color: #ccd6f6; font-size: 18px;">Participating in the Bell Hacks Hackathon not only challenged my creativity but also provided a platform to showcase my UI/UX design skills. Tasked with developing an innovative digital solution within a limited timeframe, I collaborated with a diverse team of developers, designers, and entrepreneurs to bring our vision to life.
+                </p></center>
+            </div>
+        </div>
 
         <div class="#projects">
             <table>
                 <tr>
-                    <td><p class="about-number">02.</p></td>
-                    <td><h1 style="font-size: 30px;">Some things I made</h1></td>
+                    <td><p>03.</p></td>
+                    <td><h1 style="font-size: 30px;">Projects</h1></td>
                     <td><hr width="200px;" color="#64ffda" /></td>
                 </tr>
             </table>
-            <div class="project-image">
-                <img style="width: 580px; height: 300px; margin-left: 8%; display: block; position: relative; z-index: 1;" src="bellsched.png"></img>
-            </div>
-            <div style="margin-left: 60%; margin-right: 12%; margin-top: -300px; text-align: right;" class="project-titles">
-                <p style="font-size: 20px;">Featured Project</p>
-                <h3>Emerald High School Bell Schedule App</h3>
-            </div>
-            <div class="project-description">
-                <p style="background-color: #233554; margin-left: 50%; color:#ffff; font-size: 20px; margin-right: 10%;">This app is a website that shows a second by sencond updated timer to when the next period, starts, ends, and is made to decrease our Emerald High population's excess tardies.</p>
-            </div>
+            <table>
+                <td>
+                    <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img style="width:580px; height: 300px" src="bellsched.png"></img>
+                    </div>
+                    <div class="flip-card-back">
+                        <p style="color: #e6f1ff;">EHS Bell Schedule App</p>
+                        <p style="color: #e6f1ff; font-size: medium">This app is a website that shows a second by second updated timer to when the next period, starts, ends, and is made to decrease our Emerald High population's excess tardies.</p>
+                        <p style="color: #e6f1ff; font-size: medium">I was the lead developer, and worked on the time portrayal aspects, alongside the Restaurant Driectory.</p>
+                        <a id="replit-link" onclick="window.open('https://sanjugowda216.github.io/EHS-Bell-Schedule-FINAL/')" style="color: #e6f1ff; margin-top: 10px; font-size: medium"><u>Click here for live demo!</u></a>
+                    </div>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left: 20%; margin-right: 5%; margin-top: -150px; text-align: right;" class="project-titles">
+                        <p style="font-size: 20px;">Featured Project</p>
+                        <h3>Emerald High School Bell Schedule App</h3>
+                    </div>
+                </td>
+            </table>
+            <table>
+                <td>
+                    <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img style="width:580px; height: 300px" src="emergency.png"></img>
+                    </div>
+                    <div class="flip-card-back">
+                        <p style="color: #e6f1ff;">EHS Emergency App</p>
+                        <p style="color: #e6f1ff; margin-top: 10px; font-size: medium">This app is a website that tells users/stduents what to do in the evet of an emergency, such as an Earthquake, Lockdown, or Fire Drill. It shows evacuation locations depending on your current location! In addition, we have an admin page with a login required, in which admin can post instructions onto an API.</p>
+                        <p style="color: #e6f1ff; margin-top: 10px; font-size: medium">My role as the backend developer helped me learn and work on the API async function, with GET and POST actions, aloingside the admin username and password.</p>
+                        <a id="replit-link" onclick="window.open('https://replit.com/@shelyndeli/hackathonYIPEEEEEE')" style="color: #e6f1ff; margin-top: 10px; font-size: medium"><u>Click here for source code and live demo!</u></a>
+                    </div>
+                    </div>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left: 20%; margin-right: 5%; margin-top: -150px; text-align: right;" class="project-titles">
+                        <p style="font-size: 20px;">Featured Project</p>
+                        <h3>Emerald High School Bell Schedule App</h3>
+                    </div>
+                </td>
+            </table>
         </div>
     </div>
+                
         
 
 <script src="script.js"></script>
