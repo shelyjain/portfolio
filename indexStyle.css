@@ -67,7 +67,7 @@ h2{
     font-family: 'Roboto';
 }
 .about {
-    margin-top: 250px; /* Adjust the value to increase or decrease the space */
+    margin-top: 250px;
     margin-left:5%;
     margin-right: 35%;
 }
@@ -147,6 +147,3 @@ h3{
     margin-right: 35%;
   }
 
-  .experience{
-    background-color: #8892b0;
-  }

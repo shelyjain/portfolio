@@ -10,61 +10,59 @@
 </head>
 <body>
     <header>
-      <div class="collapse navbar-collapse navbar-main-collapse">
-        <ul class="nav navbar-nav navbar-right">
+      <nav id="navbar" class="navbar">
+        <ul class="navbar">
             <li class="hidden">
                 <a class="page-scroll" href="#page-top"></a>
             </li>
-            <li><a class="page-scroll" href="#about">About</a></li>
+            <li><a class="page-scroll" href="#profile">About</a></li>
             <li><a class="page-scroll" href="#projects">Projects</a></li>
             <li><a class="page-scroll" href="#experience">Experience</a></li>
-            <li><a class="page-scroll" href="#portfolio">Work</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
             <li style="float: right;" id="resume" onclick=
             "window.open('https://drive.google.com/file/d/1jHp87ZGTuj34oxdliTsgXp35Q6t1Mt-d/view?usp=sharing');">
             <button>Resume</button></li>
         </ul>
-      </div>
+    </nav>
     </header>
     <div class="container">
-    <table>
-        <tr>
-            <div class="profile">
-                <div class="name">
-                    <p>Hi, my name is</p>
-                    <h1>S H E L Y &nbsp;&nbsp; J A I N</h1>
-                    <h2>I'm a student at Emerald High School.</h2>
+        <table>
+            <tr>
+                <div class="profile">
+                    <div class="name">
+                        <p>Hi, my name is</p>
+                        <h1>S H E L Y &nbsp;&nbsp; J A I N</h1>
+                        <h2>I'm a student at Emerald High School.</h2>
+                    </div>
                 </div>
-            </div>
-        </tr>
-        <tr>
-            <div class="me-pic">
-                <img style="margin-left: 55%; margin-top: -20%; height: 380px; width: 380px;" src="me.png"></img>
-            </div>
-        </tr>
-        <tr>
-            <td></td>
-        </tr>
-    </table>
+            </tr>
+            <tr>
+                <div class="me-pic">
+                    <img style="margin-left: 55%; margin-top: -20%; height: 380px; width: 380px;" src="me.png"></img>
+                </div>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+        </table>
 
         <div class="about">
             <div class="#about">
                 <table>
                     <tr>
                         <td><p>01.</p></td>
-                        <td><h1 style="font-size: 30px;">About Me</h1></td>
+                        <td><h1 id="profile" style="font-size: 30px;">About Me</h1></td>
                         <td><hr width="200px;" color="#64ffda" /></td>
                     </tr>
                 </table>
                 <div class="about-content">
-                    <center><p style="color: #ccd6f6; font-size: 18px;">Every morning, I would wake up to the rhythmic monotonous clacking of a keyboard and its complimentary squeak of my father’s chair, signifying the start of the day for my family. I could always expect him to be awake before the rest of us and long hours after us. The appeal of this routine was a peculiar one for my 5 year old brain and always left me with a question unanswered: How could one spend hours each day staring at a screen, just typing? Flash forward to when I turned 10 and I decided to finally enroll in an online HTML course, and I never looked back. I too, was entranced by a world of algorithms and binaries, absorbed by the sublimity of rhythmic, monotonous clacking of a keyboard. Since that first tutorial, I knew the answer to the question that had always stumped me, and pursued that feeling through this moment.
-
-                        I am a hopeful individual who wants to pursue a Bachelor's degree in Computer Science to make a difference in the the ever moving, AI-reliant world.</p></center>
+                    <center><p style="color: #ccd6f6; font-size: 18px;">Every morning, I would wake up to the rhythmic monotonous clacking of a keyboard and its complimentary squeak of my father’s chair, signifying the start of the day for my family. I could always expect him to be awake before the rest of us and long hours after us. The appeal of this routine was a peculiar one for my 5 year old brain and always left me with a question unanswered: How could one spend hours each day staring at a screen, just typing? Flash forward to when I turned 10 and I decided to finally enroll in an online HTML course, and I never looked back. I too, was entranced by a world of algorithms and binaries, absorbed by the sublimity of rhythmic, monotonous clacking of a keyboard. Since that first tutorial, I knew the answer to the question that had always stumped me, and pursued that feeling through this moment.</p>
+                        <p style="color: #ccd6f6; font-size: 18px;">I am a hopeful individual who wants to pursue a Bachelor's degree in Computer Science to make a difference in the the ever moving, AI-reliant world.</p></center>
                 </div>
             </div>
         </div>
         
-        <div class="#experience">
+        <div id="experience" class="experience">
             <table>
                 <tr>
                     <td><p>02.</p></td>
@@ -84,7 +82,7 @@
             </div>
         </div>
 
-        <div class="#projects">
+        <div id="projects" class="#projects">
             <table>
                 <tr>
                     <td><p>03.</p></td>
@@ -103,15 +101,19 @@
                         <p style="color: #e6f1ff;">EHS Bell Schedule App</p>
                         <p style="color: #e6f1ff; font-size: medium">This app is a website that shows a second by second updated timer to when the next period, starts, ends, and is made to decrease our Emerald High population's excess tardies.</p>
                         <p style="color: #e6f1ff; font-size: medium">I was the lead developer, and worked on the time portrayal aspects, alongside the Restaurant Driectory.</p>
+                        <p style="color: #e6f1ff; margin-top: 10px; font-size: medium"> Class: Computer Science Essentials, Date: May 15, 2024</p>
                         <a id="replit-link" onclick="window.open('https://sanjugowda216.github.io/EHS-Bell-Schedule-FINAL/')" style="color: #e6f1ff; margin-top: 10px; font-size: medium"><u>Click here for live demo!</u></a>
                     </div>
                     </div>
                     </div>
                 </td>
                 <td>
-                    <div style="margin-left: 20%; margin-right: 5%; margin-top: -150px; text-align: right;" class="project-titles">
+                    <div style="margin-left: 20%; margin-right: -5%; margin-top: -120px; text-align: right;" class="project-titles">
                         <p style="font-size: 20px;">Featured Project</p>
                         <h3>Emerald High School Bell Schedule App</h3>
+                        <a id="documentation-link" onclick="window.open('https://docs.google.com/document/d/1wRZe7nPeej22oDjJaqFSfMS4uf-DL344rY87rRv6Xws/edit?usp=sharing')" style="color: #e6f1ff"><u>Link to documentation</u></p>
+                        <a id="rubric-link" onclick="window.open('https://docs.google.com/document/d/117iznvpsjrzfovstdF51lDp_O8zikt1gFRpcMCdGjyA/edit?usp=sharing')" style="color: #e6f1ff"><u>Link to RUBRIC</u></p>
+
                     </div>
                 </td>
             </table>
@@ -124,23 +126,41 @@
                     </div>
                     <div class="flip-card-back">
                         <p style="color: #e6f1ff;">EHS Emergency App</p>
-                        <p style="color: #e6f1ff; margin-top: 10px; font-size: medium">This app is a website that tells users/stduents what to do in the evet of an emergency, such as an Earthquake, Lockdown, or Fire Drill. It shows evacuation locations depending on your current location! In addition, we have an admin page with a login required, in which admin can post instructions onto an API.</p>
-                        <p style="color: #e6f1ff; margin-top: 10px; font-size: medium">My role as the backend developer helped me learn and work on the API async function, with GET and POST actions, aloingside the admin username and password.</p>
+                        <p style="color: #e6f1ff; margin-top: -20px; font-size: medium">This app is a website that tells users/stduents what to do in the evet of an emergency, such as an Earthquake, Lockdown, or Fire Drill. It shows evacuation locations depending on your current location! In addition, we have an admin page with a login required, in which admin can post instructions onto an API. My role as the backend developer helped me learn and work on the API async function, with GET and POST actions, aloingside the admin username and password.</p>
+                        <p style="color: #e6f1ff; margin-top: 10px; font-size: medium"> Class: Computer Science Essentials, Date: December 18, 2023</p>
                         <a id="replit-link" onclick="window.open('https://replit.com/@shelyndeli/hackathonYIPEEEEEE')" style="color: #e6f1ff; margin-top: 10px; font-size: medium"><u>Click here for source code and live demo!</u></a>
                     </div>
                     </div>
                     </div>
                 </td>
                 <td>
-                    <div style="margin-left: 20%; margin-right: 5%; margin-top: -150px; text-align: right;" class="project-titles">
+                    <div style="margin-left: 20%; margin-right: -8%; margin-top: -150px; text-align: right;" class="project-titles">
                         <p style="font-size: 20px;">Featured Project</p>
-                        <h3>Emerald High School Bell Schedule App</h3>
+                        <h3>Emerald High School Emergency App</h3>
+                        <a id="documentation-link" onclick="window.open('https://docs.google.com/document/d/1tOIwmarWwgCyDke_u-37TFqylI_S-WSHDz3O1tRHX30/edit?usp=sharing')" style="color: #e6f1ff"><u>Link to documentation and RUBRIC</u></p>
+
                     </div>
                 </td>
             </table>
         </div>
+
+        <div id="contact" class="#contact">
+            <table>
+                <tr>
+                    <td><p>04.</p></td>
+                    <td><h1 style="font-size: 30px;">Contact me!</h1></td>
+                    <td><hr width="200px;" color="#64ffda" /></td>
+                </tr>
+            </table>
+            <div>
+                <p>&emsp;&emsp; Shely Jain</p>
+                <p>&emsp;&emsp; Email: shelyndeli@gmail.com</p>
+                <p>&emsp;&emsp; Github: @shelyjain</p>
+            </div>
+
+        </div>
     </div>
-                
+
         
 
 <script src="script.js"></script>
